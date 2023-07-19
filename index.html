@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quotes.css">
+    <script rel="javascript" src="quotes.js"> </script>
+<div id="sidebar">
+    <div class="toggle-btn" onclick="show()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+<ul>
+    <li><a href="http://127.0.0.1:3000/index.html" class="sidebar-hl">Home</a></li>
+    <li><a href="http://127.0.0.1:3000/about.html" class="sidebar-hl">About</a></li>
+    <li><a href="http://127.0.0.1:3000/services.html" class="sidebar-hl">Services</a></li>
+    <li><a href="http://127.0.0.1:3000/contact.html" class="sidebar-hl">Contact</a></li>
+</ul>
+</div>
+</head>
+<img src="Logo.jpg" id="Logo">
+<h1> Request A Quote </h1>
+
+<article>
+    <p class="text"> <br> Please submit the form below and we will send you a quote by text! <br/> </p>
+</article>
+<form class="container" action="https://formsubmit.co/lyndonleejaycee@yahoo.com" method="POST">
+    <section>
+    </section>
+        <p></p> First Name: 
+    <input name="firstname" id="full-name" placeholder="Enter your first name.">
+        <p></p> Contact Number: 
+    <input name="contactnumber" id="contact-number" placeholder="Enter your contact number.">
+        <p></p> Postcode (From): 
+    <input name="pcode1" id="email-address" placeholder="Enter the collection postcode.">
+        <p></p> Postcode (To):  
+    <input name="pcode2" placeholder="Enter the drop off postcode"></input>
+        <p></p> Helpers:  
+    <input type="number" min="0" max="2"> </input>
+        <p></p> Date & Time:  
+    <input type="date" ></input> 
+    <input type="time" ></input>
+        <p></p>  
+        <p></p> Duration of Job:  
+    <input placeholder="Enter job duration in hours."> </input> 
+        <p></p> 
+        <p> Details: <textarea>  </textarea></p> 
+    <button type="submit" id="submit-form"> Submit </button>
+</form>
